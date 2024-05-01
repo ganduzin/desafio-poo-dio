@@ -7,6 +7,11 @@ public abstract class Conteudo {
     private String titulo;
     private String descricao;
 
+    public Conteudo(String novoTitulo, String novaDescricao){
+        titulo = novoTitulo;
+        descricao = novaDescricao;
+    }
+
     public abstract double calcularXp();
 
     public String getTitulo() {

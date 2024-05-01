@@ -9,7 +9,10 @@ public class Curso extends Conteudo{
         return XP_PADRAO * cargaHoraria;
     }
 
-    public Curso() {
+    public Curso(String novoTitulo, String novaDescricao, int novaCargaHoraria) {
+        super(novoTitulo, novaDescricao);
+        cargaHoraria = novaCargaHoraria;
+
     }
 
 
